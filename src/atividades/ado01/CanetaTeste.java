@@ -1,5 +1,5 @@
 
-package ado01;
+package atividades.ado01;
 
 public class CanetaTeste {
 

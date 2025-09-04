@@ -1,4 +1,4 @@
-package ado02;
+package atividades.ado02;
 
 import javax.swing.*;
 import java.util.ArrayList;
