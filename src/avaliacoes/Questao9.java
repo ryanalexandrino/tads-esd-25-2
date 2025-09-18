@@ -1,6 +1,7 @@
 package avaliacoes;
 
 import java.util.Scanner;
+import java.util.Stack;
 
 public class Questao9 {
 
@@ -8,23 +9,23 @@ public class Questao9 {
 
         Scanner input = new Scanner(System.in);
 
-        int[] valores = new int[3];
+        Stack<Integer> pilha = new Stack<>();
 
-        for (int i = 0; i < valores.length; i++) {
-            System.out.println("Digite um valor:");
-            valores[i] = input.nextInt();
+        int valor = 0;
+        int pares = 0;
+
+        for (int i = 0; i < 10; i++ ){
+            System.out.printf("%d) Digite um valor: ", i+1);
+            valor = input.nextInt();
+            if (valor % 2 == 0){
+                pilha.push(valor);
+                pares += 1;
+            }
         }
 
-        //Duplica todos os índices do vetor
-        for (int i = 0; i < valores.length; i++) {
-            valores[i] *= 2;
-        }
-
-        //Exibe os índices duplicados
-        for (int i = 0; i < valores.length; i++) {
-            System.out.println(valores[i]);
-        }
-
+        System.out.println("Elementos removidos:");
+        while (!pilha.isEmpty()){
+            System.out.println("Removido: " + pilha.pop());        }
     }
 
 }
