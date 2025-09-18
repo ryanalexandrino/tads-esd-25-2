@@ -1,6 +1,6 @@
-package avaliacoes;
+package avaliacoes.av01;
 
-public class Questao6 {
+public class Questao06 {
 
     public static void main(String[] args) {
 

@@ -1,8 +1,8 @@
-package avaliacoes;
+package avaliacoes.av01;
 
 import java.util.Stack;
 
-public class Pilha {
+public class Questao10 {
 
     public static void main(String[] args) {
         Stack<Integer> pilha = new Stack<>();

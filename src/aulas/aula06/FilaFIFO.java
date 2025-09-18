@@ -28,7 +28,7 @@ public class FilaFIFO {
         ;
 
         // Exibe a pilha criada
-        System.out.println("Pilha criada: " + fila);
+        System.out.println("Questao10 criada: " + fila);
 
         // Lê do usuário quantos elementos serão retirados da pilha
         System.out.println("\nDigite quantos elementos deseja retirar:");

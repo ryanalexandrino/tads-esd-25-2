@@ -1,8 +1,8 @@
-package avaliacoes;
+package avaliacoes.av01;
 
 import java.util.Scanner;
 
-public class ListaInserir {
+public class Questao05 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int[] lista = new int[50];

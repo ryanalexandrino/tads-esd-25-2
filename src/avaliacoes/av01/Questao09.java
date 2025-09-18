@@ -1,9 +1,9 @@
-package avaliacoes;
+package avaliacoes.av01;
 
 import java.util.Scanner;
 import java.util.Stack;
 
-public class Questao9 {
+public class Questao09 {
 
     public static void main(String[] args) {
 

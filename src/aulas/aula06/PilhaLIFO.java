@@ -26,7 +26,7 @@ public class PilhaLIFO {
         };
 
         // Exibe a pilha criada
-        System.out.println("Pilha criada: " + pilha);
+        System.out.println("Questao10 criada: " + pilha);
 
         // Lê do usuário quantos elementos serão retirados da pilha
         System.out.println("\nDigite quantos elementos deseja retirar:");

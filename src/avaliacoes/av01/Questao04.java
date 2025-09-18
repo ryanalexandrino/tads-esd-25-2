@@ -1,8 +1,8 @@
-package avaliacoes;
+package avaliacoes.av01;
 
 import java.util.Scanner;
 
-public class Questao4 {
+public class Questao04 {
 
     public static void main(String[ ] args) {
 
